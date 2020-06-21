@@ -58,6 +58,7 @@ on post-fs-data
     chown gps system /dev/ttyHS1
 
 on boot
+    chown system system /sys/touchpanel/double_tap
     chown system system /sys/class/touch/touch_dev/palm_sensor
     chown system system /sys/class/touch/touch_dev/partial_diff_data
     chown system system /sys/power/sum_wakeup_time
