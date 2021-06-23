@@ -209,8 +209,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.lmi.rc \
+    init.mi.usb.sh \
     init.qti.dcvs.sh \
-    init.target.rc
+    init.target.rc \
+    ueventd.lmi.rc
 
 # Keymaster
 PRODUCT_PROPERTY_OVERRIDES += \
